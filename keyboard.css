@@ -1,0 +1,88 @@
+.mainContainer{
+    margin: 10% 20%;
+    border: 1px solid black;
+    padding: 3%;
+}
+.gridMain{
+    display: grid;
+    grid-template-areas: "a"
+                         "b"
+                         "c";
+
+    grid-gap: 20px;
+}
+button{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.inputData{
+    
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+   
+    margin-right: 400px;
+}
+.firstDiv{
+    grid-area: a;
+    border: 1px solid black;
+    width: 781px;
+    height: 100px;
+
+}
+.secondDiv{
+    grid-area: b;
+    
+}
+.spaces p{
+    margin-left: 5px;
+}
+.thirdDiv{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 10px;
+}
+.thirdDiv div{
+    flex-basis: 20%;
+    border: 1px solid black;
+    height: 100%;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.classFlex{
+    display: flex;
+    flex-direction: row;
+}
+.spaces div{
+    text-align: center;
+    
+}
+.thirdDiv{
+    grid-area: c;
+}
+.spaces{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+#qwerty{
+    margin-left: 30px;
+}
+#asdf{
+    margin-left: 64px;
+}
+#zxcv{
+    margin-left: 100px;
+}
+#spaceBar{
+    margin-left: 220px;
+    background-color: black;
+    width: 42%;
+}
